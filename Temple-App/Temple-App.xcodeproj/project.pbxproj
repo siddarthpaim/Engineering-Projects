@@ -13,6 +13,9 @@
 		6F35FE84289C4C5300F17C92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F35FE83289C4C5300F17C92 /* Preview Assets.xcassets */; };
 		6F35FE86289C4C5300F17C92 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F35FE85289C4C5300F17C92 /* Persistence.swift */; };
 		6F35FE89289C4C5300F17C92 /* Temple_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F35FE87289C4C5300F17C92 /* Temple_App.xcdatamodeld */; };
+		6F35FE92289C523200F17C92 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F35FE91289C523200F17C92 /* CircleImage.swift */; };
+		6F35FE96289C526600F17C92 /* Krishna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F35FE95289C526600F17C92 /* Krishna.jpeg */; };
+		6F35FE98289C556A00F17C92 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F35FE97289C556A00F17C92 /* square.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		6F35FE83289C4C5300F17C92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F35FE85289C4C5300F17C92 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6F35FE88289C4C5300F17C92 /* Temple_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Temple_App.xcdatamodel; sourceTree = "<group>"; };
+		6F35FE91289C523200F17C92 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6F35FE95289C526600F17C92 /* Krishna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Krishna.jpeg; path = ../../../../Krishna.jpeg; sourceTree = "<group>"; };
+		6F35FE97289C556A00F17C92 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = ../../../../square.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			children = (
 				6F35FE7C289C4C5000F17C92 /* Temple_AppApp.swift */,
 				6F35FE7E289C4C5000F17C92 /* ContentView.swift */,
+				6F35FE91289C523200F17C92 /* CircleImage.swift */,
 				6F35FE80289C4C5300F17C92 /* Assets.xcassets */,
+				6F35FE97289C556A00F17C92 /* square.png */,
+				6F35FE95289C526600F17C92 /* Krishna.jpeg */,
 				6F35FE85289C4C5300F17C92 /* Persistence.swift */,
 				6F35FE87289C4C5300F17C92 /* Temple_App.xcdatamodeld */,
 				6F35FE82289C4C5300F17C92 /* Preview Content */,
@@ -133,6 +142,8 @@
 			files = (
 				6F35FE84289C4C5300F17C92 /* Preview Assets.xcassets in Resources */,
 				6F35FE81289C4C5300F17C92 /* Assets.xcassets in Resources */,
+				6F35FE98289C556A00F17C92 /* square.png in Resources */,
+				6F35FE96289C526600F17C92 /* Krishna.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +158,7 @@
 				6F35FE7F289C4C5000F17C92 /* ContentView.swift in Sources */,
 				6F35FE89289C4C5300F17C92 /* Temple_App.xcdatamodeld in Sources */,
 				6F35FE7D289C4C5000F17C92 /* Temple_AppApp.swift in Sources */,
+				6F35FE92289C523200F17C92 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
