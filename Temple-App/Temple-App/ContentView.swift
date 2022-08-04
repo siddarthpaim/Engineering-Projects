@@ -28,8 +28,12 @@ struct ContentView: View {
 
                   Text("Make a Donation")
                       .font(.title2)
-                  Text("Click on Cash App Below")
+                  Image("square")
+                      .resizable(resizingMode: .stretch)
+                      .padding(.all)
+                      .frame(width: 120.0, height: 120.0)
                   Spacer()
+               
              
                   
               }
