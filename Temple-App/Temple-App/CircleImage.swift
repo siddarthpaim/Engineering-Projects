@@ -10,9 +10,9 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         Image("Krishna")
-        .clipShape(Circle())
+        .clipShape(RoundedRectangle(cornerRadius: 25, style: .continuous))
             .overlay {
-                Circle().stroke(.white, lineWidth: 4)
+                RoundedRectangle(cornerRadius: 25, style: .continuous).stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
     }
